@@ -267,7 +267,7 @@ function App() {
             <p className="text-gray-400 mb-4">2025年8月8日〜17日 | ベルサール新宿セントラルパーク</p>
             <div className="flex justify-center space-x-6 text-sm text-gray-400">
               <span>公式サイト: pokerguild.jp</span>
-              <span>Twitter: @SPADIE_FINAL_</span>
+              <span>X: @SPADIE_FINAL_</span>
             </div>
           </div>
         </div>

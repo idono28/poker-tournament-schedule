@@ -3,6 +3,8 @@
 ポーカーのトーナメント情報を参照できるフロントエンド（React + Vite）。
 `src/assets/tournaments.json` のデータをもとに UI コンポーネントで表示します。
 
+このプロジェクトは Manus が作成しました。
+
 ## 必要要件
 - Node.js 18 以上（推奨 20+）
 - pnpm 10 以上

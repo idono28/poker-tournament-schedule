@@ -423,7 +423,7 @@
         "chips": "50,000"
     },
     {
-        "date": "08/12 Tue.",
+        "date": "08/11 Mon.",
         "start_time": "21:00",
         "reg_close": "23:30",
         "id": "40",
@@ -432,7 +432,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/12 Tue.",
+        "date": "08/11 Mon.",
         "start_time": "00:00",
         "reg_close": "02:10",
         "id": "41",
@@ -441,7 +441,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/12 Tue.",
+        "date": "08/11 Mon.",
         "start_time": "02:00",
         "reg_close": "03:30",
         "id": "42",
@@ -450,7 +450,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/12 Tue.",
+        "date": "08/11 Mon.",
         "start_time": "03:00",
         "reg_close": "04:10",
         "id": "43",
@@ -459,7 +459,7 @@
         "chips": "50,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "11:00",
         "reg_close": "14:40",
         "id": "44",
@@ -468,7 +468,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "12:00",
         "reg_close": "12:30",
         "id": "45",
@@ -477,7 +477,7 @@
         "chips": "300"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "15:00",
         "reg_close": "18:30",
         "id": "46",
@@ -486,7 +486,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "16:00",
         "reg_close": "18:30",
         "id": "47",
@@ -495,7 +495,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "18:00",
         "reg_close": "22:20",
         "id": "48",
@@ -504,7 +504,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "19:00",
         "reg_close": "22:55",
         "id": "49",
@@ -513,7 +513,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "20:00",
         "reg_close": "23:55",
         "id": "50",
@@ -522,7 +522,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "21:00",
         "reg_close": "23:10",
         "id": "51",
@@ -531,7 +531,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "23:00",
         "reg_close": "01:50",
         "id": "52",
@@ -540,7 +540,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "23:00",
         "reg_close": "01:10",
         "id": "53",
@@ -549,7 +549,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "01:00",
         "reg_close": "02:30",
         "id": "54",
@@ -558,7 +558,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/13 Wed.",
+        "date": "08/12 Tue.",
         "start_time": "02:00",
         "reg_close": "03:10",
         "id": "55",
@@ -567,7 +567,7 @@
         "chips": "50,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "11:00",
         "reg_close": "15:20",
         "id": "56",
@@ -576,7 +576,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "12:00",
         "reg_close": "13:30",
         "id": "57",
@@ -585,7 +585,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "14:00",
         "reg_close": "17:30",
         "id": "58",
@@ -594,7 +594,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "16:00",
         "reg_close": "20:30",
         "id": "59",
@@ -603,7 +603,7 @@
         "chips": "50,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "17:00",
         "reg_close": "20:55",
         "id": "60",
@@ -612,7 +612,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "19:00",
         "reg_close": "23:20",
         "id": "61",
@@ -621,7 +621,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "21:00",
         "reg_close": "23:00",
         "id": "(s7)",
@@ -630,7 +630,7 @@
         "chips": "2,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "22:00",
         "reg_close": "01:30",
         "id": "62",
@@ -639,7 +639,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "23:00",
         "reg_close": "01:10",
         "id": "63",
@@ -648,7 +648,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "01:00",
         "reg_close": "02:30",
         "id": "64",
@@ -657,7 +657,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/14 Thu.",
+        "date": "08/13 Wed.",
         "start_time": "02:00",
         "reg_close": "03:10",
         "id": "65",
@@ -747,7 +747,7 @@
         "chips": "40,000"
     },
     {
-        "date": "08/15 Fri.",
+        "date": "08/14 Thu.",
         "start_time": "23:00",
         "reg_close": "01:10",
         "id": "73",
@@ -756,7 +756,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/15 Fri.",
+        "date": "08/14 Thu.",
         "start_time": "00:00",
         "reg_close": "02:10",
         "id": "74",
@@ -765,7 +765,7 @@
         "chips": "30,000"
     },
     {
-        "date": "08/15 Fri.",
+        "date": "08/14 Thu.",
         "start_time": "01:00",
         "reg_close": "02:30",
         "id": "75",
@@ -774,7 +774,7 @@
         "chips": "20,000"
     },
     {
-        "date": "08/15 Fri.",
+        "date": "08/14 Thu.",
         "start_time": "02:00",
         "reg_close": "03:10",
         "id": "76",
@@ -1002,7 +1002,7 @@
         "date": "08/16 Sat.",
         "start_time": "02:00",
         "reg_close": "03:30",
-        "id": "94",
+        "id": "93",
         "name": "NLH Moonlight",
         "entry_fee": "¥8,000",
         "chips": "20,000"

@@ -25,30 +25,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Nodeを先にセットアップ
+      # ① まず Node だけ入れる（ここでは cache 指定しない！）
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: 'pnpm'
-          cache-dependency-path: 'pnpm-lock.yaml'
 
-      # Corepackでpnpm有効化（これが重要！）
+      # ② Corepack 有効化（pnpm を使えるようにする下準備）
       - name: Enable Corepack
         run: corepack enable
 
-      # pnpmをインストール
+      # ③ pnpm を導入（version は省略して package.json の packageManager に合わせるのが安定）
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           run_install: false
 
+      # ④ pnpm store をキャッシュ（ここで初めて pnpm を触る）
+      - name: Get pnpm store path
+        id: pnpm-store
+        run: echo "STORE_PATH=$(pnpm store path --silent)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-store.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      # ⑤ 依存関係インストール & ビルド
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm build
 
+      # ⑥ Pages へデプロイ
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

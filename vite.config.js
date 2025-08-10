@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/spadie-38th-schedule/',
+  base: '/poker-tournament-schedule/',
 })

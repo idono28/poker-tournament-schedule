@@ -21,6 +21,31 @@ function App() {
     setFilteredTournaments(tournamentsData)
   }, [])
 
+  // Set default selected date to today's date in Japan time (Asia/Tokyo)
+  useEffect(() => {
+    try {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Tokyo',
+        month: '2-digit',
+        day: '2-digit',
+        weekday: 'short',
+      }).formatToParts(new Date())
+
+      const month = parts.find(p => p.type === 'month')?.value ?? ''
+      const day = parts.find(p => p.type === 'day')?.value ?? ''
+      let weekday = parts.find(p => p.type === 'weekday')?.value ?? '' // e.g., Tue
+      if (weekday) weekday = `${weekday}.` // match dataset style e.g., "Tue."
+
+      const todayStr = `${month}/${day} ${weekday}` // e.g., 08/12 Tue.
+
+      if (todayStr.trim().length > 0) {
+        setSelectedDate(todayStr)
+      }
+    } catch (e) {
+      // noop: fallback is no date selected
+    }
+  }, [])
+
   useEffect(() => {
     let filtered = tournaments
 
@@ -118,7 +143,12 @@ function App() {
             <Button
               variant={selectedDate === '' ? 'default' : 'outline'}
               onClick={() => setSelectedDate('')}
-              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+              aria-pressed={selectedDate === ''}
+              className={
+                selectedDate === ''
+                  ? 'bg-purple-600 text-white border-purple-400 ring-2 ring-purple-400/60 hover:bg-purple-600/90'
+                  : 'bg-white/10 border-white/20 text-white hover:bg-white/20'
+              }
             >
               全ての日付
             </Button>
@@ -127,7 +157,12 @@ function App() {
                 key={date}
                 variant={selectedDate === date ? 'default' : 'outline'}
                 onClick={() => setSelectedDate(date)}
-                className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+                aria-pressed={selectedDate === date}
+                className={
+                  selectedDate === date
+                    ? 'bg-purple-600 text-white border-purple-400 ring-2 ring-purple-400/60 hover:bg-purple-600/90'
+                    : 'bg-white/10 border-white/20 text-white hover:bg-white/20'
+                }
               >
                 {date}
               </Button>
